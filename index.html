@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChromaQR - Free Colorful QR Generator</title>
+    <meta name="description" content="Generate beautiful, designer-quality colorful QR codes for free. Completely free, no watermarks, Vercel-ready.">
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-animation">
+        <div class="blob blob1"></div>
+        <div class="blob blob2"></div>
+        <div class="blob blob3"></div>
+    </div>
+
+    <main class="container">
+        <header>
+            <h1 class="gradient-text">ChromaQR</h1>
+            <p>Generate stunning designer QR codes instantly. 100% Free.</p>
+        </header>
+
+        <div class="glass-panel main-panel">
+            <div class="split-layout">
+                <div class="form-section">
+                    <form id="qr-form">
+                        <div class="input-group">
+                            <label for="data">Website URL or Text</label>
+                            <input type="text" id="data" placeholder="https://example.com" required autocomplete="off">
+                        </div>
+
+                        <div class="row">
+                            <div class="input-group">
+                                <label for="fg_color">Foreground</label>
+                                <div class="color-picker-wrapper">
+                                    <input type="color" id="fg_color" value="#ffffff">
+                                    <span class="color-val">#ffffff</span>
+                                </div>
+                            </div>
+                            <div class="input-group">
+                                <label for="bg_color">Background</label>
+                                <div class="color-picker-wrapper">
+                                    <input type="color" id="bg_color" value="#111116">
+                                    <span class="color-val">#111116</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <label for="style">QR Code Style</label>
+                            <div class="select-wrapper">
+                                <select id="style">
+                                    <option value="square">Classic Square</option>
+                                    <option value="circle">Smooth Dots</option>
+                                    <option value="rounded" selected>Rounded Corners</option>
+                                    <option value="vertical">Vertical Bars</option>
+                                    <option value="horizontal">Horizontal Bars</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn-generate">
+                            <span>Generate QR Code</span>
+                            <div class="loader-spinner"></div>
+                        </button>
+                    </form>
+                </div>
+
+                <div class="preview-section">
+                    <div class="qr-preview" id="qr-preview-container">
+                        <div class="placeholder">
+                            <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <rect x="7" y="7" width="3" height="3"></rect>
+                                <rect x="14" y="7" width="3" height="3"></rect>
+                                <rect x="7" y="14" width="3" height="3"></rect>
+                                <rect x="14" y="14" width="3" height="3"></rect>
+                            </svg>
+                            <span>Your QR code will appear here</span>
+                        </div>
+                    </div>
+                    <button class="btn-download hidden" id="btn-download" title="Download PNG">
+                        Download Image
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>Built with ❤️ using Python & FastAPI. Deployed on Vercel.</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
