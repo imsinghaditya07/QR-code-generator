@@ -1,4 +1,39 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Theme logic
+    const themeToggle = document.getElementById('theme-toggle');
+    const root = document.documentElement;
+    
+    // Check local storage or system preference
+    const savedTheme = localStorage.getItem('theme');
+    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    
+    const setLightMode = (isLight) => {
+        if (isLight) {
+            root.setAttribute('data-theme', 'light');
+            localStorage.setItem('theme', 'light');
+        } else {
+            root.removeAttribute('data-theme');
+            localStorage.setItem('theme', 'dark');
+        }
+    };
+    
+    if (savedTheme === 'light') {
+        setLightMode(true);
+    } else if (savedTheme === 'dark') {
+        setLightMode(false);
+    } else if (!prefersDark && window.matchMedia) {
+        setLightMode(true); // Default to light if preferred or if no preference
+    } else {
+        setLightMode(false); // Default dark
+    }
+
+    if(themeToggle) {
+        themeToggle.addEventListener('click', () => {
+            const isLight = root.hasAttribute('data-theme') && root.getAttribute('data-theme') === 'light';
+            setLightMode(!isLight);
+        });
+    }
+
     const form = document.getElementById('qr-form');
     const btnGenerate = document.querySelector('.btn-generate');
     const qrContainer = document.getElementById('qr-preview-container');
