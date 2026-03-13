@@ -47,13 +47,13 @@ This project leverages a modern, decoupled architecture blending a responsive fr
 - **Image Processing:** `Pillow` (PIL) & `qrcode` libraries for dynamic pixel-level binary rendering
 - **Deployment:** Serverlessly hosted on **Vercel** for immediate, global CDN distribution
 
-## ✨ Features
+## ✨ Key Features
 
-- **Endlessly Custom:** Personalize your QR foreground and background with infinite gradient possibilities.
-- **Premium Themes:** 5 unique module shapes like "Smooth Dots," "Rounded Corners," and "Vertical Bars."
-- **Serverless API:** No loading or page-refreshing; generates binary blobs inline via modern fetch patterns.
-- **Micro-Animations & Glassmorphism UI:** Stunning UI utilizing frosted-glass effects and soothing background ambiance.
-- **100% Free architecture:** We cut out the paid dependencies. Open source code generating images directly using the `Pillow` Python backend library and FastAPI.
+🔹 **Endlessly Customizable:** Personalize your QR foreground and background with infinite gradient possibilities and brand colors.
+🔹 **Premium Module Themes:** Access 5 unique module shapes, including "Smooth Dots," "Rounded Corners," and "Vertical Bars," completely for free.
+🔹 **Serverless API Integration:** Enjoy zero loading screens or page-reloads. The app generates binary blobs inline via modern `fetch` patterns.
+🔹 **Micro-Animations & Glassmorphism UI:** A visually stunning user interface utilizing modern frosted-glass effects and soothing background ambiance.
+🔹 **100% Free & Open-Source Architecture:** We cut out the paid dependencies and subscriptions. All image generation relies entirely on the open-source `Pillow` Python backend and FastAPI.
 
 ## 📸 Overview of the Architecture
 
