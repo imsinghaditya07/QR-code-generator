@@ -18,7 +18,18 @@
 Check out the live deployment here:  
 🚀 **[ChromaQR Generator](https://qr-code-generator-inky-gamma-97.vercel.app/)**
 
-## 🛠️ Comprehensive Tech Stack
+## � Table of Contents
+
+- [Live Demo](#-live-demo)
+- [Comprehensive Tech Stack](#️-comprehensive-tech-stack)
+- [Features](#-features)
+- [Overview of the Architecture](#-overview-of-the-architecture)
+- [How to Run Locally](#-how-to-run-locally)
+- [About Vercel Deployment](#️-about-vercel-deployment)
+- [My Contributions & Journey](#-my-contributions--journey)
+- [Author](#-author)
+
+## �🛠️ Comprehensive Tech Stack
 
 This project leverages a modern, decoupled architecture blending a responsive frontend with a robust, serverless backend.
 
