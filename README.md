@@ -18,15 +18,23 @@
 Check out the live deployment here:  
 🚀 **[ChromaQR Generator](https://qr-code-generator-inky-gamma-97.vercel.app/)**
 
-## 🛠️ Tech Stack Included
+## 🛠️ Comprehensive Tech Stack
 
-This repository blends a powerful frontend alongside a serverless backend.
+This project leverages a modern, decoupled architecture blending a responsive frontend with a robust, serverless backend.
 
-- **Frontend:** HTML5, Vanilla CSS3 (Custom Glass UI and animations), JavaScript (ES6)
-- **Backend:** Python + FastAPI 
-- **Image Processing Library:** `Pillow` (PIL), `qrcode` Python libraries
-- **Deployment Platform:** Vercel (Hobby Free Tier)
-- **Development Tooling:** Uvicorn ASGI Web Server
+### Frontend
+- **HTML5:** Semantic and accessible HTML architecture
+- **CSS3:** Vanilla CSS featuring Custom Glassmorphism UI, smooth micro-animations, and dynamic CSS variables
+- **JavaScript (ES6+):** Modern Fetch API integration for seamless, no-reload module generations
+
+### Backend & API
+- **Python:** Core processing and business logic
+- **FastAPI:** High-performance async REST framework for endpoints
+- **Uvicorn:** Lightning-fast ASGI web server for local development
+
+### Processing & Deployment
+- **Image Processing:** `Pillow` (PIL) & `qrcode` libraries for dynamic pixel-level binary rendering
+- **Deployment:** Serverlessly hosted on **Vercel** for immediate, global CDN distribution
 
 ## ✨ Features
 
