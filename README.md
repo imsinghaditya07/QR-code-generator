@@ -92,6 +92,15 @@ If you'd like to customize the website and run it directly on your own machine:
 This codebase is specifically tuned for single-click deployment to Vercel.
 The `vercel.json` maps frontend static assets using `@vercel/static` while building Python logic inside the `/api` route via `@vercel/python`.
 
+## 🏆 My Contributions & Journey
+
+This repository represents significant effort and dedication in creating a modern, lightweight, and efficient tool from scratch. Key milestones and contributions include:
+- **Full-Stack Development:** Designed the **responsive Glassmorphism UI** and loosely coupled it with a robust **Python/FastAPI backend**.
+- **Performance Optimization:** Successfully implemented deployment strategies through Vercel's serverless functions by configuring the **ASGI environment**.
+- **Innovative Image Manipulation:** Developed logic to seamlessly manipulate `BytesIO` streams with `Pillow`, overcoming statelessness issues on serverless CDNs.
+- **Open-Source Mindset:** Formed the entire architecture with vanilla libraries, completely avoiding heavy third-party UI overhead.
+
 ## 🧑‍💻 Author
 
-Built by [Aditya Singh](https://github.com/imsinghaditya07)
+**Aditya Singh** ([@imsinghaditya07](https://github.com/imsinghaditya07))  
+*Developer, Designer, and Open Source Enthusiast*
