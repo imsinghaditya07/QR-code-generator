@@ -1,4 +1,4 @@
-<h1 align="center">ChromaQR - Next-Gen QR Code Generator</h1>
+<h1 align="center">🚀 ChromaQR - The Next-Generation QR Code Generator</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
@@ -6,10 +6,11 @@
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
 </p>
 
 <p align="center">
-  <b>A completely free, beautiful, and completely customized QR Code generator deployed blazingly fast on Vercel's serverless network.</b>
+  <b>Elevate your digital presence with a stunning, highly-customizable QR Code generator. Built with modern, serverless architecture on Vercel for unparalleled speed and aesthetics.</b>
 </p>
 
 ## 🌟 Live Demo
